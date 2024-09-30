@@ -43,3 +43,10 @@ downloadFace.py: Script principal para descargar las imágenes.
 requirements.txt: Archivo que contiene las dependencias necesarias para el proyecto.
 rostros/: Carpeta donde se guardarán las imágenes descargadas.
 
+### renameFace.py permite cambiar nombres de una carpeta con imagenes con otra, requisito deben tener la misma cantidad de imágenes:
+
+existing_images_dir = "d:/imagenes"
+downloaded_images_dir = "d:/nuevas"
+
+python renameFace.py
+
